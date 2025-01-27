@@ -1,0 +1,55 @@
+body{
+    background-color: lightgreen;
+position: relative;
+}
+
+span{
+    color: cornflowerblue;
+}
+p{
+    width: 50%;
+}
+.open{
+    height: 40px;
+    width: 90px;
+    background-color: #080909;
+    color: #f1ebeb;
+    border: none;
+    cursor: pointer;
+}
+.modal_content{
+width: 100%;
+    margin-top: 50px;
+    font-family: "Abyssinica SIL", cursive;
+}
+.close{
+
+    background-color: #5b5bf1;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+}
+.modal{
+    position: absolute;
+    background-color: aliceblue;
+    width: 30%;
+    height: 200%;
+    left: 10%;
+    padding: 20px;
+   top: 50%;
+    border: 1px blue solid;
+
+
+}
+.hidden{
+    display: none;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+ bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
